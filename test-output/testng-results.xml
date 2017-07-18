@@ -2,16 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2147" started-at="2017-07-18T08:51:45Z" finished-at="2017-07-18T08:51:48Z">
+  <suite name="Default suite" duration-ms="3008" started-at="2017-07-18T11:56:03Z" finished-at="2017-07-18T11:56:06Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2147" started-at="2017-07-18T08:51:45Z" finished-at="2017-07-18T08:51:48Z">
+    <test name="Default test" duration-ms="3008" started-at="2017-07-18T11:56:03Z" finished-at="2017-07-18T11:56:06Z">
       <class name="version3">
-        <test-method status="PASS" signature="setBaseUri()[pri:0, instance:version3@27efef64]" name="setBaseUri" is-config="true" duration-ms="420" started-at="2017-07-18T14:21:45Z" finished-at="2017-07-18T14:21:46Z">
+        <test-method status="PASS" signature="setBaseUri()[pri:0, instance:version3@3ffc5af1]" name="setBaseUri" is-config="true" duration-ms="373" started-at="2017-07-18T17:26:03Z" finished-at="2017-07-18T17:26:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBaseUri -->
-        <test-method status="PASS" signature="boardtestStatusCode()[pri:1, instance:version3@27efef64]" name="boardtestStatusCode" duration-ms="1714" started-at="2017-07-18T14:21:46Z" finished-at="2017-07-18T14:21:48Z">
+        <test-method status="PASS" signature="token()[pri:0, instance:version3@3ffc5af1]" name="token" is-config="true" duration-ms="1539" started-at="2017-07-18T17:26:04Z" finished-at="2017-07-18T17:26:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- token -->
+        <test-method status="PASS" signature="boardtestStatusCode()[pri:1, instance:version3@3ffc5af1]" name="boardtestStatusCode" duration-ms="1078" started-at="2017-07-18T17:26:05Z" finished-at="2017-07-18T17:26:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- boardtestStatusCode -->
