@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="1" total="7" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3677" started-at="2017-07-18T12:28:08Z" finished-at="2017-07-18T12:28:12Z">
+  <suite name="Default suite" duration-ms="4580" started-at="2017-07-19T09:02:24Z" finished-at="2017-07-19T09:02:29Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3677" started-at="2017-07-18T12:28:08Z" finished-at="2017-07-18T12:28:12Z">
+    <test name="Default test" duration-ms="4580" started-at="2017-07-19T09:02:24Z" finished-at="2017-07-19T09:02:29Z">
       <class name="version1">
-        <test-method status="PASS" signature="setBaseUri()[pri:0, instance:version1@29774679]" name="setBaseUri" is-config="true" duration-ms="364" started-at="2017-07-18T17:58:08Z" finished-at="2017-07-18T17:58:09Z">
+        <test-method status="PASS" signature="setBaseUri()[pri:0, instance:version1@29774679]" name="setBaseUri" is-config="true" duration-ms="760" started-at="2017-07-19T14:32:24Z" finished-at="2017-07-19T14:32:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBaseUri -->
-        <test-method status="PASS" signature="moveplayer()[pri:0, instance:version1@29774679]" name="moveplayer" duration-ms="873" started-at="2017-07-18T17:58:09Z" finished-at="2017-07-18T17:58:10Z">
+        <test-method status="PASS" signature="moveplayer()[pri:0, instance:version1@29774679]" name="moveplayer" duration-ms="973" started-at="2017-07-19T14:32:25Z" finished-at="2017-07-19T14:32:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- moveplayer -->
-        <test-method status="FAIL" signature="boardtestStatusCode()[pri:1, instance:version1@29774679]" name="boardtestStatusCode" duration-ms="1742" started-at="2017-07-18T17:58:10Z" finished-at="2017-07-18T17:58:11Z">
+        <test-method status="FAIL" signature="boardtestStatusCode()[pri:1, instance:version1@29774679]" name="boardtestStatusCode" duration-ms="1882" started-at="2017-07-19T14:32:26Z" finished-at="2017-07-19T14:32:28Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
@@ -93,23 +93,23 @@ Expected: 7079
           <reporter-output>
           </reporter-output>
         </test-method> <!-- boardtestStatusCode -->
-        <test-method status="PASS" signature="newboard()[pri:2, instance:version1@29774679]" name="newboard" duration-ms="147" started-at="2017-07-18T17:58:11Z" finished-at="2017-07-18T17:58:12Z">
+        <test-method status="PASS" signature="newboard()[pri:2, instance:version1@29774679]" name="newboard" duration-ms="203" started-at="2017-07-19T14:32:28Z" finished-at="2017-07-19T14:32:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- newboard -->
-        <test-method status="PASS" signature="detailsofboard()[pri:3, instance:version1@29774679]" name="detailsofboard" duration-ms="93" started-at="2017-07-18T17:58:12Z" finished-at="2017-07-18T17:58:12Z">
+        <test-method status="PASS" signature="detailsofboard()[pri:3, instance:version1@29774679]" name="detailsofboard" duration-ms="75" started-at="2017-07-19T14:32:28Z" finished-at="2017-07-19T14:32:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- detailsofboard -->
-        <test-method status="PASS" signature="newPlayer_POST()[pri:4, instance:version1@29774679]" name="newPlayer_POST" duration-ms="272" started-at="2017-07-18T17:58:12Z" finished-at="2017-07-18T17:58:12Z">
+        <test-method status="PASS" signature="newPlayer_POST()[pri:4, instance:version1@29774679]" name="newPlayer_POST" duration-ms="363" started-at="2017-07-19T14:32:28Z" finished-at="2017-07-19T14:32:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- newPlayer_POST -->
-        <test-method status="PASS" signature="getplayerdetails()[pri:5, instance:version1@29774679]" name="getplayerdetails" duration-ms="95" started-at="2017-07-18T17:58:12Z" finished-at="2017-07-18T17:58:12Z">
+        <test-method status="PASS" signature="getplayerdetails()[pri:5, instance:version1@29774679]" name="getplayerdetails" duration-ms="191" started-at="2017-07-19T14:32:28Z" finished-at="2017-07-19T14:32:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getplayerdetails -->
-        <test-method status="PASS" signature="updateplayerdetails()[pri:6, instance:version1@29774679]" name="updateplayerdetails" duration-ms="66" started-at="2017-07-18T17:58:12Z" finished-at="2017-07-18T17:58:12Z">
+        <test-method status="PASS" signature="updateplayerdetails()[pri:6, instance:version1@29774679]" name="updateplayerdetails" duration-ms="90" started-at="2017-07-19T14:32:29Z" finished-at="2017-07-19T14:32:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateplayerdetails -->
