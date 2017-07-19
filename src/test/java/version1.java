@@ -1,4 +1,5 @@
 import static org.hamcrest.Matchers.equalTo;
+import static org.testng.Assert.assertEquals;
 
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -30,7 +31,8 @@ public class version1 {
 	    
 		  //given();
 		
-		RestAssured.given().when().get("/rest/v1/board.json").then().body("response.board[0].id", equalTo("7061"));
+		RestAssured.given().when().get("/rest/v1/board.json").then().body("response.board[8].id", equalTo("7079"));
+		 //RestAssured.given().when().get("/rest/v1/board.json").then().assertThat().body("response.board[8].id", "7079");
 		RestAssured.given().when().get("/rest/v1/board.json").then().body("response.status", equalTo("1"));
  }
 	 
@@ -48,7 +50,8 @@ public class version1 {
 		 b_id = boardID.concat(".JSON");
 		 System.out.println("board id of new board is"+boardID);
 	}
-	 
+     // Response res = RestAssured.given().when().get("/rest/v1/board/7566.json").then().assertThat().b
+	  //System.out.println("detailsofboard" +res.asString());
 	 
 
     @Test(priority=3)
@@ -56,7 +59,10 @@ public class version1 {
 	    
 		  //RestAssured.given().when().get("/rest/v1/board/3704.json").then().statusCode(200);
     	  System.out.println(b_id);
-		  Response res = RestAssured.given().when().get("/rest/v1/board/7566.json");
+		
+		  com.jayway.restassured.path.json.JsonPath path =  RestAssured.given().when().get("/rest/v1/board/7566.json").then().extract().jsonPath();
+	    	boardID = path.getString("response.board.id");
+	    	
 		
 		  
 		 // System.out.println("details of board" +res.asString());
